@@ -148,7 +148,7 @@ for generation in range(maximum_generation):
 # GA has completed required generation
 print ('End best score, percent target: %.1f' %best_score)
 
-# Plot progress
+# Plot the graph progress
 import matplotlib.pyplot as plt
 
 plt.plot(best_score_progress)
